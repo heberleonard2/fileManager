@@ -18,12 +18,12 @@
     <div id="root">
       <div id="container">
         <header class="container__header">
-          <h3>File Explorer</h3>
+          <h3>Nome da pasta</h3>
           <i class="fas fa-expand" onclick="container.toogleFullScreen()"></i>
         </header>
         <section class="container__actions">
           <div class="container__actions--navigation">
-            <i class="fas fa-arrow-left"></i>
+            <i class="fas fa-arrow-left" onclick="history.back()"></i>
             <i class="fas fa-arrow-right"></i>
             <i class="fas fa-home"></i>
           </div>
@@ -59,37 +59,11 @@
               </div>
             </div>
             <div class="container__items--grid">
-              <a ondblclick="window.location ='/pasta1.html'">
-                <i class="fas fa-folder"></i>
-                <div><div contenteditable onclick="(e) => e.stopPropagation();">Pasta Teste</div></div>
-              </a>
-
-              <a ondblclick="window.location ='/pasta1.html'">
-                <i class="fas fa-folder"></i>
-                <div><div contenteditable>Projetos</div></div>
-              </a>
-
-              <a ondblclick="window.location ='/pasta1.html'">
-                <i class="fas fa-folder-open"></i>
-                <div><div contenteditable>Nome grande</div></div>
-              </a>
-
-              <a ondblclick="window.location ='/pasta1.html'">
-                <i class="fas fa-folder"></i>
-                <div><div contenteditable>Filinto</div></div>
-              </a>
-
               <a>
-                <i class="fas fa-file-image"></i>
-                <div><div contenteditable>image.png</div></div>
+                <i class="fas fa-folder"></i>
+                <div><div contenteditable>Outra pasta</div></div>
               </a>
-
               <a>
-                <i class="fas fa-file-pdf"></i>
-                <div><div contenteditable>teste.pdf</div></div>
-              </a>
-
-              <a >
                 <i class="fas fa-file-excel"></i>
                 <div><div contenteditable>teste.csv</div></div>
               </a>

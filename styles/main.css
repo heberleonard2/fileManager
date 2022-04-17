@@ -172,6 +172,7 @@
   height: 100%;
   margin: 16px;
   display: flex;
+  overflow-y:auto;
 }
 
 #container .container__items #drop-area {
@@ -179,6 +180,7 @@
   width: 100%;
   background: var(--purple-600);
   padding: 16px;
+  overflow-y:auto;
   position: relative;
 }
 
